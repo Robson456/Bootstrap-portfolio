@@ -1,0 +1,135 @@
+body{
+    background-color: #E0E0D9;
+    height: 100%;
+    color:black;
+    overflow-x:hidden;
+}
+img{
+    width: 100%;
+    
+}
+
+.centered{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top:10px;
+}
+.name{
+    color:#dc3545;
+}
+.phone{
+    color:#dc3545;
+}
+
+.card{
+    background-color: #dc3545;
+    margin-bottom: 20px;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color:white;
+}
+.card-link{
+    color:rgb(190, 190, 190);
+    
+}
+.card-link:hover{
+    color: #FFF;
+}
+
+#btnContactUs{
+    background-color: #dc3545;
+    border:none;
+}
+
+.text-centered{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    
+}
+#About{
+    padding-top:10px; 
+    padding-bottom: 30px;
+    
+}
+a{
+    color:#dc3545;
+}
+
+.bg{
+    position: relative; 
+    padding-top: 50px;
+}
+
+.jumbotron {
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    }
+    .jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+    .jumbotron small {
+    color: #FFF;
+    }
+    .h1 small {
+    font-size: 24px;
+    }
+    /* type.js */
+    .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    @-webkit-keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    @-moz-keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+.fa {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.fa-facebook {
+    background: transparent;
+    
+    
+}
+
+.fa-twitter {
+    background: transparent;
+    
+    
+}
+.fa-google {
+    background:transparent;
+
+}
+
+.footer{
+    text-align: center;
+    position: static;
+    padding-top: 15px;
+}
