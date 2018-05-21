@@ -37,16 +37,20 @@
         </div>
       </div>     
     </nav>
-    <div class="bg">
-      <img src="img/bg1.jpg" class="img-fluid">
-      
+    
+    
+    
+    <div class="parallax" data-parallax="scroll" data-z-index="1"  data-image-src="img/bg1.jpg">
+      <!-- <img src="img/bg.jpg" class="img-fluid" > -->
       <div class="text-centered" >
-          <div id="typed-strings">
-          </div>
-         <span id="typed"></span>
-         
+        <div id="typed-strings">
+        </div>
+        <span id="typed"></span>
+        
       </div>
     </div>
+
+ 
     <br>
     <br>
   
@@ -57,10 +61,10 @@
             </div>
             <div class="col-sm-8 content" id="About"  >  
                 <div class="media border p-3 " >
-                    <img src="img/avatar.jpg"  class="mr-3 mt-3 rounded-circle" style="width:80px;">
+                    <img src="img/avatar.jpg"  class="mr-3 mt-3 rounded-circle" style="width:120px;">
                       <div class="media-body">
                         <h3 class="name"><small><i>Robert Przepiorka</i></small></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis accumsan sem ultricies vehicula. Ut non nunc risus.</p>                 
+                        <p>Hi my name is Robert Przepiórka i'm in high school.  </p>                 
                        </div>
                        <hr>
                       </div>
@@ -80,7 +84,7 @@
             <div class="col-sm-8 content "id="About">  
                       <div class="container-fluid">
                         <h3 class="centered"><strong><i>I work with:</i></strong></h3>
-                        <p class="centered name">javascript</p>
+                        <p class="centered name">Javascript</p>
                         <p class="centered name">Phaser</p>
                         <p class="centered name">HTML5</p>
                         <p class="centered name">CSS 3</p>
@@ -200,7 +204,7 @@
                       </address>
                       <address>
                           <strong>e-mail</strong><br>
-                          <p class="phone">robinprzepiorka@wp.pl</p>
+                          <p class="phone">robinprzepiorka@gmail.com</p>
                       </address>
                       <address>
                         <strong>GitHub</strong><br>
@@ -221,7 +225,7 @@
 
       <footer class="footer bg-dark"  >
         <div class="container">
-          <span class="text-muted">Website by Robert Przepiórka robinprzepiorka@wp.pl Copyright &copy; 2018</span> <br>
+          <span class="text-muted">Website by Robert Przepiórka Copyright &copy; 2018</span> <br>
           <span class="text-muted">Typing efect powred by <a href="https://www.mattboldt.com">Type.js</a></span> 
         </div>
         <div class="socialmedia centered">
@@ -238,10 +242,14 @@
   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="typed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    
+
   <!-- type.js -->
    <script>
       var typed = new Typed('#typed',{
-                    strings:["Hi my name is Robert Przepiórka ","and i'm front-end developer"],
+                    strings:["Hi my name is Robert Przepiórka ","and i'm a frontend developer"],
                     backSpeed: 40,
                     typeSpeed: 40,
                     loop: true
@@ -291,6 +299,13 @@
       });
     });
     </script>
+    <!-- <script>
+      $(window).scroll(function(){
+        var scrollTop = $(this).scrollTop();
+        $('.bg').css('top',-(scrollTop )+'px');
+      });
+      </script> -->
+    
 
   </body>
 

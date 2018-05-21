@@ -46,6 +46,7 @@ img{
 }
 
 .text-centered{
+    z-index: 2;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -63,9 +64,12 @@ a{
     color:#dc3545;
 }
 
-.bg{
-    position: relative; 
+.parallax{
+    position: relative;
     padding-top: 50px;
+    min-height: 400px;
+    background: transparent;
+
 }
 
 .jumbotron {
